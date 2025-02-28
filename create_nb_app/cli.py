@@ -7,8 +7,8 @@ def interactive_package_selection():
     choices = [
         questionary.Choice("mypy", checked=True),
         questionary.Choice("black", checked=True),
-        questionary.Choice("flake8", checked=True),
-        questionary.Choice("pytest", checked=True),
+        questionary.Choice("flake8", checked=False),
+        questionary.Choice("pytest", checked=False),
         questionary.Choice("pre-commit", checked=False),
         questionary.Choice("sphinx", checked=False),
     ]

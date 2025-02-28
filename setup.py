@@ -14,7 +14,7 @@ setup(
     },
     author="Nikolai G. Borbe",
     author_email="nikolaiborbe@gmail.com",
-    description="An oppinionated CLI for creating Python projects.",
+    description="An oppinionated CLI for creating typesafe Python projects.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/nikolaiborbe/create-nb-app",

@@ -7,6 +7,7 @@ __pycache__/
 *$py.class
 
 # Virtual environment
+venv
 venv/
 .env
 
@@ -14,8 +15,12 @@ venv/
 *.egg-info/
 dist/
 build/
+.mypy_cache
+.mypy_cache/
 
 # Pytest cache
+.pytest_cache
+pytest_cache/
 .cache/
 """
 
@@ -31,9 +36,8 @@ REQUIREMENTS_PACKAGES = {
 
 PYPROJECT_TOML_CONTENT = """
 [tool.black]
-# Black uses PEP8 defaults:
-# - Top-level functions and classes are separated by 2 blank lines.
-# - Methods inside a class are separated by 1 blank line.
+target-version = ["py38"]
+line-length = 140
 """
 
 MYPY_INI_CONTENT = """
@@ -102,7 +106,7 @@ SOFTWARE.
 README_CONTENT = """
 # {project_name}
 
-This project was generated with MyProject Generator.
+This project was generated with [create-np-app](https://github.com/nikolaiborbe/create-nb-app).
 
 ## Features
 
@@ -137,5 +141,5 @@ Flake8 checks your code for style and programming errors. For example, it will w
 ```bash
 pip install -r requirements.txt
 ```
-3. Start coding! 🚀"
+3. Start coding! 🚀
 """ 

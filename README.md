@@ -1,6 +1,6 @@
 <h1 align="center">create-nb-app</h1>
 
-<p align="center">An opinionated CLI for creating Python projects.</p>
+<p align="center">An opinionated CLI for creating typesafe Python projects.</p>
 <p align="center">
 <code>pip install create-nb-app</code>
 </p>
