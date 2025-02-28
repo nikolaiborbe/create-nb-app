@@ -9,6 +9,7 @@
 ## Usage
 Run the following command to create a new project:
 1. **Install dependencies:**
+
 Make sure you have [questionary](https://pypi.org/project/questionary/) installed:
 ```bash
 pip install questionary
