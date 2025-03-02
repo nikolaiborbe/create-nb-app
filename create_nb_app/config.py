@@ -42,18 +42,9 @@ line-length = 140
 
 MYPY_INI_CONTENT = """
 [mypy]
-python_version = 3.8
-warn_return_any = True
-disallow_untyped_defs = True
-disallow_incomplete_defs = True
-check_untyped_defs = True
-strict_optional = True
-warn_unused_ignores = True
-incremental = True
-disallow_any_unimported = True
-disallow_any_expr = True
-disallow_any_decorated = True
-disallow_any_generics = True
+python_version = 3.9
+strict = True
+ignore_missing_imports = True
 """
 
 PRE_COMMIT_CONFIG_CONTENT = """
