@@ -50,6 +50,10 @@ check_untyped_defs = True
 strict_optional = True
 warn_unused_ignores = True
 incremental = True
+disallow_any_unimported = True
+disallow_any_expr = True
+disallow_any_decorated = True
+disallow_any_generics = True
 """
 
 PRE_COMMIT_CONFIG_CONTENT = """
