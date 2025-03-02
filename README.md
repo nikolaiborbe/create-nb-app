@@ -18,12 +18,8 @@ Install create-nb-app:
 ```bash
 pip install create-nb-app
 ```
-2. **Install the Package Locally:**
-```bash
-pip install -e .
-```
 
-3. **Create a new project:**
+2. **Create a new project:**
 Run the following command:
 ```bash
 create-nb-app <project-name>
